@@ -10,6 +10,8 @@ dedicated user `ts3`
 
 copy init script to `/etc/init.d/teamspeak`
 
+copy `ts3update.sh` to teamspeak folder and `chmod +x` it
+
 for teamspeak running with sql database use example ini
 
 add cron symlink to ts3update.sh in `/etc/cron.weekly/`
