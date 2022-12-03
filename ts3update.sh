@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+cd "/usr/local/ts3/"
 
 VERSION_FILE="version.txt"
 CURRENT_VERISON="$(cat $VERSION_FILE)"
